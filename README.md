@@ -44,9 +44,7 @@ LoRA est une technique de **fine-tuning efficace (PEFT)**.
 
 Pour une matrice de poids \( W \), LoRA approxime la mise à jour :
 
-\[
-W = W_0 + BA
-\]
+$W = W_0 + BA$
 
 avec :
 - $B \in \mathbb{R}^{d \times r}$
