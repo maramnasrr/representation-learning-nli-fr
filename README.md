@@ -22,12 +22,12 @@ Ce travail poursuit trois objectifs pédagogiques majeurs :
 
 ## 1. Comprendre CamemBERT vs CamemBERTa
 
-- **:contentReference[oaicite:0]{index=0}**
+- **CamemBERT**
   - Basé sur RoBERTa
   - Pré-entraîné uniquement sur corpus français (OSCAR)
   - Spécialisé monolingue
 
-- **:contentReference[oaicite:1]{index=1}**
+- **CamemBERTa**
   - Basé sur mBART
   - Pré-entraînement multilingue (25 langues)
   - Architecture de type denoising seq2seq
@@ -64,14 +64,14 @@ avec :
 ## 3. Apprentissage en contexte et Chain-of-Thought
 
 ###  In-context learning (0-shot / few-shot)
-Introduit par **:contentReference[oaicite:2]{index=2} et al. (GPT-3)** :
+Introduit par **Brown et al. (GPT-3)** :
 
 - Apprentissage sans mise à jour des poids
 - Utilisation d’exemples dans le prompt
 
 ###  Chain-of-Thought (CoT)
 
-- Introduit par **:contentReference[oaicite:3]{index=3}**
+- Introduit par **Wei et al. (Chain-of-Thought Prompting)**
 - Génère un raisonnement intermédiaire explicite
 
  Avantages :
@@ -106,7 +106,7 @@ Chaque exemple contient :
 
 ---
 
-## 2. Apprentissage en contexte (:contentReference[oaicite:4]{index=4} 3.2 3B)
+## 2. Apprentissage en contexte (LLaMA 3.2 3B)
 
 -  0-shot : sans exemples  
 -  Few-shot : 2–3 exemples par classe  
