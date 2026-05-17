@@ -49,9 +49,9 @@ W = W_0 + BA
 \]
 
 avec :
-- \( B \in \mathbb{R}^{d \times r} \)
-- \( A \in \mathbb{R}^{r \times k} \)
-- \( r \ll \min(d,k) \)
+- $B \in \mathbb{R}^{d \times r}$
+- $A \in \mathbb{R}^{r \times k}$
+- $r \ll \min(d,k)$
 
 ### Intérêts
 
