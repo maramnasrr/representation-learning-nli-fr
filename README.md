@@ -1,5 +1,4 @@
 # Inférence automatique de relations entre phrases en français  
----
 
 # Contexte général
 
